@@ -1,0 +1,16 @@
+/build
+/build/
+/bin/
+/gen/
+/AndResGuard/
+.gradle/
+.idea/
+SuperFactory.iml
+app/app.iml
+app/signFile/
+app/src/main/java/com/cjgc/superfactory/greendao/gen/
+app/src/main/res/mipmap-mdpi/
+app/src/main/res/mipmap-xxxhdpi/
+local.properties
+projectFilesBackup/
+/captures/
