@@ -16,3 +16,4 @@ projectFilesBackup/
 /captures/
 /.idea/
 node_modules/
+/__tests__/
