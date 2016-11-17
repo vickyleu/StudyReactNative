@@ -23,4 +23,4 @@ var QQLogin = React.createClass({
     }
 });
 
-AppRegistry.registerComponent('QQLogin', () => QQLogin);
+AppRegistry.registerComponent('reactNative', () => QQLogin);

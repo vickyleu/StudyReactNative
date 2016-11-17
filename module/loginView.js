@@ -22,7 +22,7 @@ var LoginView = React.createClass({
         return (
             <View style={styles.container}>
                 {/*头像*/}
-                <Image source={require('/resource/img/icon.png')} style={styles.iconStyle}/>
+                <Image source={require('../resource/img/icon.png')} style={styles.iconStyle}/>
                 {/*帐号和密码*/}
                 <TextInput placeholder={'请输入用户名'} style={styles.textInputStyle}/>
                 <TextInput placeholder={'请输入密码'} password={true} style={styles.textInputStyle}/>
@@ -57,9 +57,9 @@ var LoginView = React.createClass({
                 {/*其他的登录方式*/}
                 <View style={styles.otherLoginStyle}>
                     <Text>其他登录方式:</Text>
-                    <Image source={require('/resource/img/icon3.png')} style={styles.otherImageStyle}/>
-                    <Image source={require('/resource/img/icon7.png')} style={styles.otherImageStyle}/>
-                    <Image source={require('/resource/img/icon8.png')} style={styles.otherImageStyle}/>
+                    <Image source={require('../resource/img/icon3.png')} style={styles.otherImageStyle}/>
+                    <Image source={require('../resource/img/icon7.png')} style={styles.otherImageStyle}/>
+                    <Image source={require('../resource/img/icon8.png')} style={styles.otherImageStyle}/>
                 </View>
             </View>
         );
